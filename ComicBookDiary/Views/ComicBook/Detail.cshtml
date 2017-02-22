@@ -4,23 +4,37 @@
 Layout = "~/Views/Shared/_Layout.cshtml";
 ViewBag.Title = Model.DisplayText;
 }
-<h1>@ViewBag.SeriesTitle</h1>
-<h2>Issue #@ViewBag.Number</h2>
-<h5>Description:</h5>
-<div>@Html.Raw(@ViewBag.DescriptionHtml)</div>
-
-@if(Model.Artists.Length > 0)
-{
-   <h5>Artist</h5>
-    <div>
-        <ul>
-            @foreach(var artist in Model.Artists)
-            {
-                <li>@artist.Name : @artist.Role</li>
-            }
-        </ul>
+<div class="row">
+<div class="col-md-6">
+    <div class="well">
+        <h5><label>Series Title:</label> @Model.SeriesTitle</h5>
+        <h5><label>Issue #:</label> @Model.IssueNumber</h5>
+        <h5><label>Favorite:</label> @Model.Favorite</h5>
+        @if (Model.Artists.Length > 0)
+        {
+            <h5>Artist</h5>
+            <div>
+                <ul>
+                    @foreach (var artist in Model.Artists)
+                {
+                        <li>@artist.Name : @artist.Role</li>
+                    }
+                </ul>
+            </div>
+        }
+        <h5>Description:</h5>
+        <div>@Html.Raw(Model.DescriptionHtml)</div>
+        </div>
     </div>
-}
+    <div class="col-md-6">
+        <img src="/Images/@Model.CoverImageFileName"
+             alt="The Amazing Spider-Man #700" class="img-responsive" />
+    </div>
+ </div>
+
+
+
+
 
 
 
