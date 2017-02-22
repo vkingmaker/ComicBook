@@ -11,8 +11,8 @@ namespace ComicBookDiary.Controllers
     {
         public ActionResult Detail()
         {
-            ComicBook comicBook = new ComicBook
-            {
+          
+            ComicBook comicBook = new ComicBook(){
                 SeriesTitle = "The Amazing Spider-man",
                 IssueNumber = 700,
                 DescriptionHtml = "<p>Final Issue! Witness the final hours of Doctor Octopus' Life and his one,Last,great act of revenge! Even if Spider Man Survives...<strong>Will Peter Parker</strong></p>",

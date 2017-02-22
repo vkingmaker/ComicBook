@@ -38,13 +38,6 @@ C:\Development\ComicBook\ComicBook\ComicBookDiary\bin\roslyn\VBCSCompiler.exe.co
 C:\Development\ComicBook\ComicBook\ComicBookDiary\bin\ComicBookDiary.dll.config
 C:\Development\ComicBook\ComicBook\ComicBookDiary\bin\ComicBookDiary.dll
 C:\Development\ComicBook\ComicBook\ComicBookDiary\bin\ComicBookDiary.pdb
-C:\Development\ComicBook\ComicBook\ComicBookDiary\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Development\ComicBook\ComicBook\ComicBookDiary\bin\System.Web.Razor.xml
-C:\Development\ComicBook\ComicBook\ComicBookDiary\bin\System.Web.Webpages.xml
-C:\Development\ComicBook\ComicBook\ComicBookDiary\bin\System.Web.Webpages.Deployment.xml
-C:\Development\ComicBook\ComicBook\ComicBookDiary\bin\System.Web.Webpages.Razor.xml
-C:\Development\ComicBook\ComicBook\ComicBookDiary\bin\System.Web.Helpers.xml
-C:\Development\ComicBook\ComicBook\ComicBookDiary\bin\System.Web.Mvc.xml
 C:\Development\ComicBook\ComicBook\ComicBookDiary\obj\Debug\ComicBookDiary.csprojResolveAssemblyReference.cache
 C:\Development\ComicBook\ComicBook\ComicBookDiary\obj\Debug\ComicBookDiary.dll
 C:\Development\ComicBook\ComicBook\ComicBookDiary\obj\Debug\ComicBookDiary.pdb
